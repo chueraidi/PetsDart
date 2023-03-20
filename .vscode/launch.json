@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "pest",
+            "cwd": "pest",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "pest (profile mode)",
+            "cwd": "pest",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "pest (release mode)",
+            "cwd": "pest",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "textpets",
+            "cwd": "textpets\\textpets",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "textpets (profile mode)",
+            "cwd": "textpets\\textpets",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "textpets (release mode)",
+            "cwd": "textpets\\textpets",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
