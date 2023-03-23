@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pest/widget/my_style.dart';
 import 'package:pest/widget/show_text.dart';
 
 class ShowheaderDrawer extends StatelessWidget {
@@ -7,16 +8,14 @@ class ShowheaderDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(children: [
-          DrawerHeader(
-            child: Container(width: 40,
-              child: showText(text: 'Home',),
+            child: Column(mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                ListTile(
+                  leading: Icon(Icons.exit_to_app),
+                  title: MyStyle().titleH2('Sign Out'),
+                ),
+              ],
             ),
-          )
-        ]),
-      ),
     );
   }
 }
